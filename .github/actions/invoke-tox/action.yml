@@ -49,7 +49,7 @@ runs:
 
     - name: Code Coverage
       if: ${{ inputs.codacy}}
-      uses: codecov/codecov-action@v4
+      uses: codecov/codecov-action@v5
       with:
         fail_ci_if_error: true
         token: ${{ inputs.codacy}}
